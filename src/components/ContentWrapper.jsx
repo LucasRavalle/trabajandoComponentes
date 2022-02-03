@@ -1,6 +1,7 @@
 import TopBar from './TopBar';
 import ContentRowTop from './ContentRowTop';
 import Footer from './Footer';
+import Table from './Table'
 
 export default function ContentWrapper(){
 
@@ -10,6 +11,7 @@ export default function ContentWrapper(){
         <div>
             <TopBar/>
             <ContentRowTop genres={genres} />
+            <Table/>
             <Footer/>
         </div>
     )
